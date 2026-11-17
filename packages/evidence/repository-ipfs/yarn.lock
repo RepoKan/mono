@@ -302,17 +302,17 @@ __metadata:
   linkType: hard
 
 "@libp2p/crypto@npm:^5.0.0, @libp2p/crypto@npm:^5.1.21":
-  version: 5.1.21
-  resolution: "@libp2p/crypto@npm:5.1.21"
+  version: 5.2.0
+  resolution: "@libp2p/crypto@npm:5.2.0"
   dependencies:
-    "@libp2p/interface": "npm:^3.2.5"
+    "@libp2p/interface": "npm:^3.4.0"
     "@noble/curves": "npm:^2.0.1"
     "@noble/hashes": "npm:^2.0.1"
     multiformats: "npm:^14.0.0"
     protons-runtime: "npm:^7.0.0"
     uint8arraylist: "npm:^3.0.2"
     uint8arrays: "npm:^6.1.1"
-  checksum: 10c0/bbb9c21b47fa8b62200fc0761b3a2e6faac0fd9eb87a59558eef50ed14848acc96e3e776494edd39c0e5968356da4649e2d06a3e06f4817df0a03c1a4ca11353
+  checksum: 10c0/c00d32251c118c3f94a1f2609a8bda22f158e6581f7c7dfcabf3e419ad580dcf2a385655ef06a165486cfb2dfa2c9427c33132d6644e906a05d7d3b614cf7919
   languageName: node
   linkType: hard
 
@@ -327,6 +327,20 @@ __metadata:
     progress-events: "npm:^1.1.0"
     uint8arraylist: "npm:^3.0.2"
   checksum: 10c0/d3d2ee1620276c6df73c5c6e3b27a1a4f2aaf8302619342b5e041020021f4744e12cd53fc47da2444f1710c99ddf4c825a114107747c58ef8ccbc9429e60e8cc
+  languageName: node
+  linkType: hard
+
+"@libp2p/interface@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@libp2p/interface@npm:3.4.0"
+  dependencies:
+    "@multiformats/dns": "npm:^1.0.6"
+    "@multiformats/multiaddr": "npm:^13.0.3"
+    main-event: "npm:^1.0.5"
+    multiformats: "npm:^14.0.0"
+    progress-events: "npm:^1.1.0"
+    uint8arraylist: "npm:^3.0.2"
+  checksum: 10c0/d1791ada4689b492e81e9110dbe002fa4d025aa5ebfb848b0af01f3434e34a889601228ae4999edb2f7e1c2f84fed52e4a9722cff16c719c7e9794aa7311dd46
   languageName: node
   linkType: hard
 
@@ -1320,6 +1334,13 @@ __metadata:
   version: 1.0.4
   resolution: "main-event@npm:1.0.4"
   checksum: 10c0/20626538375735269e01a306e6ea0b6e80928c265252b486b965c0520c9bf31c46592e14a46fd5ec65fc0ed0f434d00d5d40993872704d339df864b7dda8be21
+  languageName: node
+  linkType: hard
+
+"main-event@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "main-event@npm:1.0.5"
+  checksum: 10c0/dc8ca99043dca967b783658323d87c3db1e826bb31153c385aa2974390c741726cef7d256510d4da6ae99b4893c6e6a9bb64fda4fb58b9d6150d5d19a35d6418
   languageName: node
   linkType: hard
 
